@@ -183,6 +183,7 @@ input {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    margin-top: -75px;
 
 }
 /*Tabla de index con grids*/
