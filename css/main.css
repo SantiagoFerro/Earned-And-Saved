@@ -1,7 +1,7 @@
 
 
-/*Titulo de la pagina*/
-h1 {
+Titulo de la pagina*/
+/*h1 {
     color: rgb(10, 7, 0);
     font-weight: normal;
   font-size: 40px;
@@ -68,11 +68,10 @@ border-style: solid;
 border-radius:35px;
 }
 
-header {
-    background-color: rgb(198, 170, 199);
+/*header {
     width: auto;
     height: 100px;
-}
+}*/
 
 /*Estilo y tamaño de las imagenes*/
 img { 
@@ -174,7 +173,7 @@ input {
     grid-template-columns: repeat(3, 5fr);
     grid-template-rows: repeat(1, 5fr);
     background-color: rgb(198, 170, 199); 
-    margin-bottom: -100px;
+    margin-bottom: -500px;
 }
 
 
@@ -283,3 +282,4 @@ input {
 .foto-nasdaq:hover {
     transform: skew(3deg,2deg);
 }
+
