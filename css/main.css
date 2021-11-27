@@ -1,4 +1,7 @@
 body {
+  padding: 2px; }
+
+body {
   font-size: 16px; }
   body .top:hover {
     transform: skew(1deg, 1deg); }

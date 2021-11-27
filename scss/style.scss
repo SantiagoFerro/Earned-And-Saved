@@ -1,5 +1,12 @@
+@import "_variables";
+@mixin size($width, $height) {
+    height: $height;
+    width: $width;
+}
+
 $base-font-size: 16px; 
 $color: rgb(198, 170, 199);
+$borde: 2px;
 body {
     font-size: $base-font-size;
 .top:hover {
@@ -16,8 +23,10 @@ body {
     }
     h2 {
         color: $color;
+        padding: $ancho*2;
     }
     footer {
         background-color: $color;
+        padding: $ancho/1;
     }
 }
