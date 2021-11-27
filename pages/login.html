@@ -15,7 +15,7 @@
          <link rel="stylesheet" href="../css/main.css">
         <title>LOGIN</title>
     </head>
-    <body>
+    <body class="bg-secondary">
         <header>
             <!--Lista de botones-->
          <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -52,27 +52,29 @@
              </div>
            </nav>
          </header>
-     
-        <!--Formulario para LOGIN-->
-        <form>
-            <div>
-                <p class="form-head">LOGIN</p>
-            <label for="nombre">Nombre</label>
-            <input type="text" name=nombre class="nombre">
-            <br>
-            <label for="apellido">Apellido</label>
-            <input type="text" name="apellido" class="apellido">
-            <br>
-            <label for="email">Email</label>
-            <input type="email" name=email class="email">
-            <br>
-            <label for="contraseña">Contraseña</label>
-            <input type="contraseña" name=contraseña class="contraseña">
-            <br>
-            <button type="submit">LOG IN</button>
 
-            </div>
-        </form>
-      
+         <!--h1 y h2-->
+     <div><h1>Earned&Saved</h1></div>
+     <div><h2>LOGIN</h2></div>
+     
+     <!--Formulario-->
+
+     <form>
+      <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-4">
+          <input type="email" class="form-control" id="inputEmail3">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+        <div class="col-sm-4">
+          <input type="password" class="form-control" id="inputPassword3">
+        </div>
+      </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+
     </body>
     </html>
