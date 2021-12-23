@@ -14,3 +14,10 @@ body {
   body footer {
     background-color: #c6aac7;
     padding: 1px; }
+  body .card-img-top {
+    width: 100px;
+    height: 100x; }
+  body .NFT {
+    font-size: 25px;
+    font-weight: bold;
+    color: #f8ecec; }
